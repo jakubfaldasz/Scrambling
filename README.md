@@ -23,6 +23,7 @@ In this example we will try to scramble the 8-bit grayscale image of the Golden 
 scramble_image(self, input_image, output_image)
 ```
 After using the method from above, our scrambled image looks like this  
+
 <img src="https://i.imgur.com/PCsA5GI.png" width="400">
 
 ## Types of scramblers
@@ -48,4 +49,5 @@ In the Receiver class we decode the data by looking for the sync word and by syn
 In the example below we've used a DVB scrambler, syncword was 10 bits long and the data was 320 bits long. At the end the generated data was intentionally corrupted by falsing some of the bits.
 
 Received image looks like this  
+
 <img src="https://i.imgur.com/UaW5Y6c.png" width="400">
