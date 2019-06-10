@@ -2,7 +2,7 @@
 Simple implementation of a protocol for transmission of scrambled images.
 It was a project for the Reliability and diagnostics of digital systems.
 
-## What is it about
+## Something about scramblers
 
 Basically scramblers were made to eliminate the undesirable patterns in the data (like for example a long sequences of certain values) so that the message would be easier to transfer.
 Scramblers can also be treated as pseudo-random generators which means that they are perfect for data encryption.
