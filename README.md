@@ -48,6 +48,6 @@ In the Receiver class we decode the data by looking for the sync word and by syn
 
 In the example below we've used a DVB scrambler, 10bits long syncword. The transmitted data was 320 bits long. Generated data was then intentionally corrupted by randomly negating of individual bits.
 
-Received image looked like this  
+Finally the received image looked like this  
 
 <img src="https://i.imgur.com/UaW5Y6c.png" width="400">
